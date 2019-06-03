@@ -69,7 +69,7 @@ Test the Model | less than 1 week
 Save Result and Make Final Report | during the whole process and the final week
 
 ## Project Binder link
-[analysis_of fountain pens](https://mybinder.org/v2/gh/CesareGao/analysis_of_fountain_pen_purchase/master?filepath=training_model.ipynb
+[analysis_of fountain pens](https://mybinder.org/v2/gh/CesareGao/analysis_of_fountain_pen_purchase/master?filepath=training_model.ipynb)
 
 ## Project Running result (HTML)
 TBD
