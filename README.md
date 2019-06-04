@@ -71,5 +71,5 @@ Save Result and Make Final Report | during the whole process and the final week
 ## Project Binder link
 [analysis_of fountain pens](https://mybinder.org/v2/gh/CesareGao/analysis_of_fountain_pen_purchase/master?filepath=final_report.ipynb)
 
-## Project Running result (HTML)
-TBD
+## Project Running result (PDF)
+[analysis_of fountain pens](https://github.com/CesareGao/analysis_of_fountain_pen_purchase/blob/master/final_report%20.pdf)
