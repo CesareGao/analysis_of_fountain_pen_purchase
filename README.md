@@ -1,12 +1,8 @@
 # Analysis of Fountain Pen Purchase
 
-## Team Member:
+## Motivation:
 
-- Yan Gao
-
-## Project Motivation:
-
-This time I want to find how to determine the best seller of a certain type of product. So I intend to build a model which could find the exact products according to the requirement of customers and predict some suggestions ones according to the similarity in between.
+I want to find how to determine the best seller of a certain type of product. So I intend to build a model which could find the exact products according to the requirement of customers and predict some suggestions ones according to the similarity in between. Another intention is to find whether the product description actually matches the product price.
 
 The dataset I choose is from [The Goulet Pen CO.]( https://www.gouletpens.com/ ) website. There is no formatted data, so I'll build the dataset by web scrapping to get the information I need.
 
@@ -14,13 +10,15 @@ To get a start, I'll only use the fountain pens' data from the website.
 
 ## Project Objective:
 
+- Find whether the product description could indicate the product price. 
 - Find the best purchase fit according to the customer requirement.
 - Build a similarity model between the fountain pens according to the catogorical data and numerical data.
-- Make comparation between the certain type of product from different website. (If the project time is enough)
 
-## Libraries/Tools intended to use
+## Tools and methods used
 
+- web scrapping
 - Statistical testing (quantify the categorical data, test the correlation between different attributes)
+- Unbalanced data analysis
 - feature engineering (train word3vec model to find the similarity between fountain pens according to the feature of fountain pen itself and the customer' review)
 - NLP word representation
 
@@ -54,19 +52,11 @@ To get a start, I'll only use the fountain pens' data from the website.
     * There are some product has really fewer customer review.
     * The company has selling preference when choosing fountain pens.
 
-## Predictive Task
+## Summary
 
-By the corresponding data, compute the similarity between different fountain pens by featuring matrix. Try to predict the fountain pen the customers may like according to their preference and make purchase suggestions.
-
-## Tentative Timeline
-Steps and Outlines | Roughly Time Estimate
------------------- | ---------------------
-Data Collecting | 2 weeks
-Data Cleanup | 2 weeks
-Statistical Analysis | 1 week
-Build Prediction Model | 3 weeks
-Test the Model | less than 1 week
-Save Result and Make Final Report | during the whole process and the final week
+- The product description is actually related with its price. 
+- The higher of the average price of certain brand, the higher price variance of this brand.
+- The model achieved the predicting accuracy of 9 in 10 products.
 
 ## Project Binder link
 [analysis_of fountain pens](https://mybinder.org/v2/gh/CesareGao/analysis_of_fountain_pen_purchase/master?filepath=final_report.ipynb)
